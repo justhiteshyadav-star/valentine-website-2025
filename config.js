@@ -51,7 +51,7 @@ const CONFIG = {
     celebration: {
         title: "Yay! I'm the luckiest person in the world!💖",
         message: "Now come get your gift, a big warm hug and a huge kiss!",
-        emojis: "🎀💋💕"  // These will bounce around
+        emojis: "🎀"  // These will bounce around
     },
 
     // Color scheme for the website
@@ -68,8 +68,8 @@ const CONFIG = {
     // Adjust these if you want faster/slower animations
     animations: {
         floatDuration: "10s",           // How long it takes hearts to float up (10-20s recommended)
-        floatDistance: "4px",          // How far hearts move sideways (30-70px recommended)
-        bounceSpeed: "0.2s",            // Speed of bouncing animations (0.3-0.7s recommended)
+        floatDistance: "1px",          // How far hearts move sideways (30-70px recommended)
+        bounceSpeed: "0.1s",            // Speed of bouncing animations (0.3-0.7s recommended)
         heartExplosionSize: 1         // Size of heart explosion effect (1.2-2.0 recommended)
     },
 
